@@ -1,0 +1,40 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto+Condensed&display=swap');
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Luxurious Roman', cursive;
+}
+
+i {
+    font-size: 32px;
+}
+
+.main {
+    padding: 0 20px;
+}
+
+.footer {
+    border-top: 2px solid $border-color;
+    text-align: center;
+    margin-bottom: 10px;
+}
