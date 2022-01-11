@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
-    "style-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed"
+    "style": "sass mimn21/scss/style.scss mimn21/css/style.css --no-source-map",
+    "style-min": "sass mimn21/scss/style.scss mimn21/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
