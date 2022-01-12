@@ -1,5 +1,6 @@
 <div class="header" role="banner">
     <div class="site-header">
+        <div class="gradient"></div>
         {% if pages["_meta"].meta.logo %}
         <div class="logo">
             <a href="{{ base_url }}">
@@ -13,22 +14,22 @@
                 {{ pages["_meta"].meta.tagline|markdown }}
             </a>
         </div>
-        <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="0">
-			<i class="fa fa-bars fa-5x" aria-hidden="true" id="toggler"></i>
-			<span class="sr-only">
-				Toggle Menu
-			</span>
-		</a>
-        <div class="nav">
-            <div id="nav" role="navigation" tabindex="-1">
-                <ul>
-                    {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
-                        <li {% if page.id==current_page.id %} class="active" {% endif %}>
-                            <a href="{{ page.url }}">{{ page.title }}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </div>
+    </div>
+    <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="0">
+        <i class="fa fa-bars fa-5x" aria-hidden="true" id="toggler"></i>
+        <span class="sr-only">
+            Toggle Menu
+        </span>
+    </a>
+    <div class="nav">
+        <div id="nav" role="navigation" tabindex="-1">
+            <ul>
+                {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
+                    <li {% if page.id==current_page.id %} class="active" {% endif %}>
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
         </div>
     </div>
 </div>

@@ -1,0 +1,138 @@
+.index {
+    display: grid;
+}
+
+.index h1 {
+    grid-column: 1 span;
+    justify-self: center;
+    text-align: center;
+}
+
+.index-text {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 400px;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.index-text img {
+    height: 300px;
+}
+
+.index-text p {
+    width: 50%;
+    font-size: 26px;
+}
+
+.index-text .big {
+    font-size: 30px;
+}
+
+#second-img {
+    border-radius: 10%;
+    height: 300px;
+    width: 350px;
+    object-fit: cover;
+}
+
+.index-awards {
+    width: 100%;
+    height: 350px;
+    background-color: #646464;
+    display: grid;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.index-awards h2 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.index-awards figure {
+    width: 140px;
+    justify-self: center;
+}
+
+.index-awards img {
+    height: 140px;
+    width: 140px;
+}
+
+@media (max-width: 1050px) {
+    .index-text p {
+        font-size: 20px;
+    }
+    
+    .index-text .big {
+        font-size: 24px;
+    }
+
+    #second-img {
+        height: 250px;
+        width: 300px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 660px) {
+    .index-text {
+        justify-content: center;
+        height: auto;
+    }
+    
+    .index-text p {
+        width: 80%;
+    }
+
+    #second-img {
+        height: 375px;
+        width: 425px;
+    }
+
+    .index-awards {
+        height: 300px;
+    }
+
+    .index-awards figure {
+        width: 120px;
+        margin: auto;
+        font-size: 14px;
+    }
+
+    .index-awards img {
+        height: 120px;
+        width: 120px;
+    }
+}
+
+@media (max-width: 425px) {
+    .index-text p {
+        font-size: 16px;
+    }
+
+    .index-text .big {
+        font-size: 20px;
+    }
+
+    #second-img {
+        height: 250px;
+        width: 300px;
+    }
+
+    .index-awards {
+        height: 250px;
+    }
+
+    .index-awards figure {
+        width: 90px;
+        font-size: 12px;
+    }
+
+    .index-awards img {
+        height: 90px;
+        width: 90px;
+    }
+}

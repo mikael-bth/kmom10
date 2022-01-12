@@ -6,7 +6,9 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto+Condensed&display=swap');
 @import 'variables';
+@import 'header';
 @import 'nav';
+@import 'index';
 
 body {
     background-color: $background-color;
@@ -30,12 +32,21 @@ i {
     font-size: 32px;
 }
 
-.main {
-    padding: 0 20px;
-}
-
 .footer {
     border-top: 2px solid $border-color;
     text-align: center;
     margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 18px;
+}
+
+.footer .social {
+    word-spacing: 14px;
+}
+
+.social a:link,
+.social a:visited {
+    text-decoration: none;
 }

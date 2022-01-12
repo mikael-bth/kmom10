@@ -1,8 +1,14 @@
 ---
-Logo: image/leaf_256x256.png
+Logo: image/logo.png
 Tagline: Bästa advokatbyrån i Sverige.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/mikael-bth/kmom10
-      icon: fab fa-github
+    - title: Solstråle Advokatbyrå på facebook!
+      url: https://www.facebook.com/
+      icon: fab fa-facebook-square
+    - title: Solstråle Advokatbyrå på instagram!
+      url: https://www.instagram.com/
+      icon: fab fa-instagram
+    - title: Solstråle Advokatbyrå på twitter!
+      url: https://www.twitter.com/
+      icon: fab fa-twitter
 ---
