@@ -1,0 +1,23 @@
+{% include 'incl/header.twig' %}
+
+<body>
+
+{% include 'incl/nav.twig' %}
+
+<div class="projekt">
+    {{ content }}
+    {% for projekt in meta["Projekt"] %}
+        <div class="projekt-container">
+            <picture>
+                <img src="{{ meta["Image"] }}?w=500" alt="Rättvisa">
+            </picture>
+            <h3>{{ projekt.name }}</h3>
+            <div class="desc"><p>{{ projekt.desc }}</p></div>
+            <p class="click">--click to read--</p>
+        </div>
+    {% endfor %}
+</div>
+{% include 'incl/footer.twig' %}
+<script src="{{ theme_url }}/js/projekt.js"></script>
+</body>
+</html>
