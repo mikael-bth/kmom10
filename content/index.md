@@ -19,15 +19,15 @@ Description: Bästa advokatbyrån i Sverige.
         <h2>Utmärkelser</h2>
         <figure>
             <img src="image/award.png?h=300&w=300" alt="Utmärkelse">
-            <figcaption>Bästa Advokatbyrå<br>-Riketige AB</figcaption>
+            <figcaption>Bästa Advokatbyrå<br>-Riketige Association</figcaption>
         </figure>
         <figure>
             <img src="image/award.png?h=300&w=300" alt="Utmärkelse">
-            <figcaption>Bästa Företag<br>-Staubsauger AB</figcaption>
+            <figcaption>Bästa Företag<br>-Staubsauger Awards</figcaption>
         </figure>
         <figure>
             <img src="image/award.png?h=300&w=300" alt="Utmärkelse">
-            <figcaption>Mest Nöjda Kunder<br>-Kuchen AB</figcaption>
+            <figcaption>Mest Nöjda Kunder<br>-Kuchen Foundation</figcaption>
         </figure>
     </div>
     <div class="index-text">
@@ -38,6 +38,6 @@ Description: Bästa advokatbyrån i Sverige.
             Sverige så våra anställda alltid glada och redo att hjälpa dig. Vi har också vunnit mer än 80% av alla våra domstolsfall
             så ifall du bestämmer dig att gå med oss kan du alltid förvänta dig en vinst.
         </p>
-        <img src="image/index2.jpeg?h=500&w=500" alt="Advokater" id="second-img">
+        <img src="image/index2.jpeg?h=800" alt="Advokater" id="second-img">
     </div>
 </div>

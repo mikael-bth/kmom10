@@ -9,6 +9,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'header';
 @import 'nav';
 @import 'index';
+@import 'about';
 
 body {
     background-color: $background-color;
@@ -34,8 +35,15 @@ i {
 
 .footer {
     border-top: 2px solid $border-color;
+    background-color: $menu-background-color;
     text-align: center;
-    margin-bottom: 10px;
+    height: 120px;
+    position: relative;
+}
+
+.footer p,
+.footer i {
+    color: $header-font-color;
 }
 
 .footer p {
@@ -49,4 +57,39 @@ i {
 .social a:link,
 .social a:visited {
     text-decoration: none;
+}
+
+.footer #mail {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 5px;
+}
+
+.footer #adress {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
+}
+
+#adress,
+#adress i,
+#mail,
+#mail i {
+    font-size: 16px;
+}
+
+@media (max-width: 424px) {
+    .footer {
+        height: 140px;
+    }
+
+    .footer #mail {
+        position: unset;
+    }
+    
+    .footer #adress {
+        position: unset;
+    }
 }

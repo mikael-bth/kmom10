@@ -6,7 +6,7 @@
 }
 
 .nav {
-    background-color: #3b3b3b;
+    background-color: $menu-background-color;
 }
 
 .nav ul {
@@ -54,7 +54,7 @@
 
     .js .nav-toggle {
         display: block;
-        background-color: #3b3b3b;
+        background-color: $menu-background-color;
         width: 100%;
         font-size: 1.5rem;
         line-height: 2em;
