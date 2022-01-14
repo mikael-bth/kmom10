@@ -8,10 +8,8 @@
     {{ content }}
     {% for projekt in meta["Projekt"] %}
         <div class="projekt-container">
-            <picture>
-                <img src="{{ meta["Image"] }}?w=500" alt="Rättvisa">
-            </picture>
-            <h3>{{ projekt.name }}</h3>
+            <img src="{{ meta["Image"] }}?w=300" alt="Rättvisa">
+            <h2>{{ projekt.name }}</h2>
             <div class="desc"><p>{{ projekt.desc }}</p></div>
             <p class="click">--click to read--</p>
         </div>

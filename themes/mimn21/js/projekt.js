@@ -14,6 +14,8 @@
             const expandedDiv = div.cloneNode(true);
             expandedDiv.classList.remove("projekt-container")
             expandedDiv.classList.add("expand");
+            const imgElement = expandedDiv.querySelector(":scope > img");
+            imgElement.src = "image/projekt1.png?w=500";
             body.appendChild(expandBackground);
             body.appendChild(expandedDiv);
             expandBackground.addEventListener("click", clearExpand)

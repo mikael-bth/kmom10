@@ -1,0 +1,29 @@
+.theme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.theme h1 {
+    text-align: center;
+}
+
+.theme-text {
+    width: 70%;
+}
+
+.theme img {
+    width: 50%;
+    border-radius: 10%;
+    margin: 20px 0;
+}
+
+@media (max-width: 767px) {
+    .theme-text {
+        width: 90%;
+    }
+    
+    .theme img {
+        width: 70%;
+    }
+}

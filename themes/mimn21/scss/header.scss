@@ -5,10 +5,13 @@
 }
 
 .site-header {
-    background-image: url("../../../image/hero.jpeg&f=grayscale&f0=brightness,-50");
+    background-image: url("../../../image/hero.jpeg?w=2000&f=grayscale&f0=brightness,-50");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 320px;
 }
 
 .gradient {
@@ -26,12 +29,6 @@
     color: $header-font-color;
 }
 
-.site-header {
-    display: flex;
-    flex-wrap: wrap;
-    min-height: 320px;
-}
-
 .logo {
     width: 0;
     z-index: 1;
@@ -42,6 +39,12 @@
     width: 100%;
     text-align: center;
     z-index: 1;
+}
+
+@media (max-width: 1023px) {
+    .site-header {
+        background-image: url("../../../image/hero.jpeg?w=1280&f=grayscale&f0=brightness,-50");
+    }
 }
 
 @media (max-width: 767px) {

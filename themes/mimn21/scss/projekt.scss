@@ -28,7 +28,7 @@
     margin: 10px;
 }
 
-.projekt-container h3 {
+.projekt-container h2 {
     font-size: 20px;
     width: 90%;
     margin: 5px;
@@ -63,12 +63,12 @@
 
 .expand {
     width: 600px;
-    height: 700px;
+    height: 750px;
     position: fixed;
     z-index: 3;
     top: 50%;
     left: 50%;
-    margin-top: -350px;
+    margin-top: -375px;
     margin-left: -300px;
     border-radius: 10%;
     display: flex;
@@ -79,10 +79,11 @@
 
 .expand img {
     width: 500px;
+    height: 500px;
     margin: 10px;
 }
 
-.expand h3 {
+.expand h2 {
     font-size: 26px;
     width: 90%;
     margin: 5px;
@@ -124,13 +125,14 @@
 
     .expand {
         width: 400px;
-        height: 500px;
-        margin-top: -250px;
+        height: 630px;
+        margin-top: -315px;
         margin-left: -200px;
     }
     
     .expand img {
         width: 300px;
+        height: 300px;
     }
 }
 
@@ -146,13 +148,14 @@
     }
 
     .expand {
-        width: 300px;
-        height: 450px;
-        margin-top: -200px;
-        margin-left: -150px;
+        width: 320px;
+        height: 570px;
+        margin-top: -285px;
+        margin-left: -160px;
     }
     
     .expand img {
         width: 200px;
+        height: 200px;
     }
 }
